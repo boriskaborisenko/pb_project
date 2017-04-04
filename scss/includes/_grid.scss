@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,700&subset=cyrillic');
+
+$font: 'Fira Sans';
+$oswald: 'Oswald';
+
+$mc:rgba(0,0,0,0.64);
+$w:1000px;
+
+$main_color:'#fff';
+
+$main_bg:'http://allswalls.com/images/clouds-minimalistic-wallpaper-1.jpg';
+
+
+
+html,body{width: 100%; height: 100%; min-height: 100%;  position: relative; font-family: 'Arial'; color:$mc; font-size: 16px;}
+
+
+
+.downloads{position: absolute;   width: 270px; height: 39px; top:24px; right: 20px; z-index:3;}
+.app{width: 120px; height: 39px; margin-left: 10px;}
+.appstore{background: url('../images/png/appstore.png') center center no-repeat; background-size: cover;}
+.gplay{background: url('../images/png/gplay.png') center center no-repeat; background-size: cover;}
+
+.main{position: relative; width: 100%; height: 100%; min-height: 100%; background:none; background: transparent url() center center no-repeat; background-size: cover; background: linear-gradient(180deg, #60c5ef 8%, #229fff 99%);}
+
+.logos{width: 100%; background: #369FFC; padding: 50px 0; box-sizing: border-box;  }
+
+.all_logos{ text-align: center;}
+.one_logo{width: ($w/10)-20px; height: 32px; vertical-align: middle; display: inline-block; background: url() center center no-repeat; background-size: contain; margin: 0 16px;}	
+
+.nav{width: 100%; background: #232834; padding: 30px 0; box-sizing: border-box; font-size: 0;}
+.nav_left{font-size: 14px; width: 20%; color:#fff; }
+.nav_right{font-size: 14px; text-align: right; width: 80%;
+	ul{margin:0!important; padding: 0!important;
+		li{display:inline; margin-left: 20px;}
+		a{text-decoration: none; color:#229fff;}
+	}
+}
+
+.inner{position: relative; width: $w; min-height: 100%;  margin: 0 auto; }
+.inner_f{position: relative; width: ($w)-200px; min-height: 100%;  margin: 0 auto; }
+
+.top{width: 100%;  position: relative; padding: 20px 0;}
+.top_logo{position: relative; width: 150px; height: 50px; margin: 0px auto; background: url('http://www.agilians.com/wp-content/uploads/2015/10/paypal-1.png') center center no-repeat; background-size: contain;}
+
+
+
+
+.content{position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+   width: 100%; color:#ddd;}
+  
+  .hello{margin-bottom: 50px; font-size: 50px; text-align: center;  font-family: $oswald; font-weight: 400; color:#fff;
+	  text-shadow: 1px 1px 2px transparent, 0 0 1em rgba(0,0,0,0.2);
+  }
+  
+  .boxes{width: 100%; font-size: 0; text-align: center;}
+  
+  .one_box{font-size: 10px;  width: ($w/3)-80px; margin: 0 20px; height: 100%; box-sizing: border-box;  border-radius: 4px;  box-shadow: 0 0 4px rgba(0,0,0,0.23); background: transparent;}
+  .inl_t{display: inline-block; vertical-align: top;}
+  .inl_m{display: inline-block; vertical-align: middle;}
+  
+  
+  .box_top{font-size: 12px; font-family: 'Helvetica', 'Arial'; font-weight: bold; color: #33405B; text-transform: uppercase; background: rgba(255,255,255,0.8); padding: 15px; text-align: left; border-radius: 4px 4px 0 0; }
+  
+  .box_icon{width: 30px; height: 30px; background: url() center center no-repeat; background-size: cover; margin-right: 10px; border-radius: 1000px; }
+  
+  .box_title{width: 70%; }
+  
+  .box_cont{ height: 220px; width: 100%;  background: #fff; border-radius: 0 0 4px 4px; box-sizing: border-box; text-align: left; padding: 20px;}
+  
+  .box_img{height: 26px; border-bottom: 0px solid #fafbfc; padding-bottom: 0px; margin-bottom: 10px;
+	  img{height: 26px; width: auto;}
+  }
+  
+  .line{font-size: 0; width: 100%; position: relative; margin-top: 14px;}
+  
+  .text_cont{background: #fff; height: 126px; font-size: 11.4px; line-height: 18px; color:rgba(0,0,0,0.54);}
+  
+  .inp_icon{width: 70px; height: 36px; background: olive; border-radius: 3px 0 0 3px; border-left:1px solid #ddd; border-top:1px solid #ddd; border-bottom: 1px solid #ddd; background: #fafbfc; box-sizing: border-box; font-size: 10px; text-align: center; line-height: 36px; color:rgba(0,0,0,0.44); font-weight: bold; text-transform: uppercase;}
+  .myinp{box-sizing: border-box; height: 36px; width:($w/3)-192px; font-size: 14px; outline: none; border-radius:0 3px 3px 0; border:1px solid #ddd; padding: 0 8px;}
+  
+  .myinp2{box-sizing: border-box; height: 36px; width:($w/6)-70px; font-size: 14px; outline: none; border-radius:3px 0px 0px 3px; border:1px solid #ddd; padding: 0 8px;}
+  
+  
+    
+  .btn{box-sizing: border-box; height: 36px; width:100%; font-size: 14px; color:#fff; background: #229fff; border-radius: 3px; border:1px solid #229fff; display: block; text-align: center; }
+  
+  .btna{box-sizing: border-box; height: 36px; width:100%; font-size: 14px; color:#fff; background: #229fff; border-radius: 3px; border:1px solid #229fff; display: block; text-align: center; line-height: 36px; text-decoration: none;}
+  
+  
+  
